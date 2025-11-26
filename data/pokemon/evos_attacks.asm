@@ -1579,7 +1579,7 @@ AggronEvosAttacks:
 	db 0 ; no more level-up moves
 
 OnixEvosAttacks:
-	db EVOLVE_, METAL_COAT, TR_ANYTIME, STEELIX
+	db EVOLVE_HOLD, METAL_COAT, TR_ANYTIME, STEELIX
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, HARDEN
@@ -1630,7 +1630,7 @@ SteelixEvosAttacks:
 	db 0 ; no more level-up moves
 
 NosepassEvosAttacks:
-	db EVOLVE_, METAL_COAT, TR_ANYTIME, PROBOPASS
+	db EVOLVE_HOLD, METAL_COAT, TR_ANYTIME, PROBOPASS
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 4, HARDEN
@@ -1783,7 +1783,7 @@ MienfooEvosAttacks:
 	db 1, FURY_SWIPES ; Pound
 	db 5, PSYCH_UP; Meditate
 	db 9, PROTECT ; Detect
-	db 13, DOUBLE_SLAP ; FAKE OUT
+	db 13, DOUBLESLAP ; FAKE OUT
 	db 17, DOUBLE_KICK
 	db 21, SWIFT
 	db 25, CALM_MIND
@@ -1793,7 +1793,7 @@ MienfooEvosAttacks:
 	db 41, HONE_CLAWS
 	db 45, AURA_SPHERE
 	db 49, ACROBATICS
-	db 50, HIGH_JUMP_KICK
+	db 50, HI_JUMP_KICK
 	db 54, NIGHT_SLASH
 	db 58, CLOSE_COMBAT
 	db 0 ; no more level-up moves
@@ -1803,7 +1803,7 @@ MienshaoEvosAttacks:
 	db 1, FURY_SWIPES ; Pound
 	db 5, PSYCH_UP; Meditate
 	db 9, PROTECT ; Detect
-	db 13, DOUBLE_SLAP ; FAKE OUT
+	db 13, DOUBLESLAP ; FAKE OUT
 	db 17, DOUBLE_KICK
 	db 21, SWIFT
 	db 25, CALM_MIND
@@ -1813,7 +1813,7 @@ MienshaoEvosAttacks:
 	db 41, HONE_CLAWS
 	db 45, AURA_SPHERE
 	db 49, ACROBATICS
-	db 50, HIGH_JUMP_KICK
+	db 50, HI_JUMP_KICK
 	db 55, NIGHT_SLASH
 	db 59, CLOSE_COMBAT
 	db 0 ; no more level-up moves
@@ -2339,7 +2339,7 @@ MagnemiteEvosAttacks:
 	db 0 ; no more level-up moves
 
 MagnetonEvosAttacks:
-	db EVOLVE_, METAL_COAT, TR_ANYTIME, MAGNEZONE
+	db EVOLVE_HOLD, METAL_COAT, TR_ANYTIME, MAGNEZONE
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, SUPERSONIC
