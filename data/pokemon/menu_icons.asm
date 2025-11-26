@@ -147,10 +147,10 @@ MonMenuIcons:
 	db ICON_KROOKODILE ; 90
 	db ICON_SKORUPI    ; 91
 	db ICON_DRAPION    ; 92
-	db ICON_TRAPINCH   ; 93
-	db ICON_GIBLE      ; 94
-	db ICON_GABITE     ; 95
-	db ICON_GARCHOMP   ; 96
+	db ICON_GIBLE      ; 93
+	db ICON_GABITE     ; 94
+	db ICON_GARCHOMP   ; 95
+	db ICON_SCRAGGY    ; 96
 	db ICON_SCRAFTY    ; 97
 	db ICON_NUMEL      ; 98
 	db ICON_CAMERUPT   ; 99
