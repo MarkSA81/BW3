@@ -497,10 +497,10 @@ SkorupiEggMoves:
 GibleEggMoves:
 	db BODY_SLAM
 	db DOUBLE_EDGE
-	db DRAGON_BREATH
+	db DRAGONBREATH
 	db IRON_HEAD
 	db IRON_HEAD
-	db MUD_SHOOT
+	db MUD_SHOT
 	db EARTH_POWER
 	db OUTRAGE
 	db ROCK_TOMB
