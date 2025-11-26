@@ -197,7 +197,7 @@ PokedexDataPointerTable:
 	dw TropiusPokedexEntry
 	dw PawniardPokedexEntry
 	dw BisharpPokedexEntry
-	dw KingambitaPokedexEntry
+	dw KingambitPokedexEntry
 	dw SkarmoryPokedexEntry
 	dw MantykePokedexEntry
 	dw MantinePokedexEntry
