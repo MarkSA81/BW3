@@ -2573,7 +2573,7 @@ JohtoGrassWildMons:
 	map_id VICTORY_ROAD_CAVE_3F
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	db 53, CONKELDUR
+	db 53, CONKELDURR
 	db 52, SWOOBAT
 	db 53, AGGRON
 	db 51, CRUSTLE
@@ -2584,7 +2584,7 @@ JohtoGrassWildMons:
 	db 52, COFAGRIGUS
 	db 55, MAMOSWINE
 	; day
-	db 53, CONKELDUR
+	db 53, CONKELDURR
 	db 52, SWOOBAT
 	db 53, AGGRON
 	db 50, CRUSTLE
@@ -2595,7 +2595,7 @@ JohtoGrassWildMons:
 	db 52, COFAGRIGUS
 	db 55, METAGROSS
 	; nite
-	db 53, CONKELDUR
+	db 53, CONKELDURR
 	db 52, SWOOBAT
 	db 53, AGGRON
 	db 51, CRUSTLE
@@ -2609,7 +2609,7 @@ JohtoGrassWildMons:
 	map_id VICTORY_ROAD_CASTLE_OUTSIDE
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	db 53, CONKELDUR
+	db 53, CONKELDURR
 	db 52, SWOOBAT
 	db 53, AGGRON
 	db 52, CRUSTLE
@@ -2620,7 +2620,7 @@ JohtoGrassWildMons:
 	db 53, COFAGRIGUS
 	db 55, MAMOSWINE
 	; day
-	db 53, CONKELDUR
+	db 53, CONKELDURR
 	db 52, SWOOBAT
 	db 53, AGGRON
 	db 52, CRUSTLE
@@ -2631,7 +2631,7 @@ JohtoGrassWildMons:
 	db 53, COFAGRIGUS
 	db 55, METAGROSS
 	; nite
-	db 53, CONKELDUR
+	db 53, CONKELDURR
 	db 52, SWOOBAT
 	db 53, AGGRON
 	db 52, CRUSTLE
@@ -2827,7 +2827,7 @@ JohtoGrassWildMons:
 	; morn
 	db 60, GIGALITH
 	db 61, VANILLUXE
-	db 60, CONKELDUR
+	db 60, CONKELDURR
 	db 60, BEARTIC
 	db 62, HEATMOR
 	db 62, DURANT
@@ -2838,7 +2838,7 @@ JohtoGrassWildMons:
 	; day
 	db 60, GIGALITH
 	db 61, VANILLUXE
-	db 60, CONKELDUR
+	db 60, CONKELDURR
 	db 60, BEARTIC
 	db 62, HEATMOR
 	db 62, DURANT
@@ -2849,7 +2849,7 @@ JohtoGrassWildMons:
 	; nite
 	db 60, GIGALITH
 	db 61, VANILLUXE
-	db 60, CONKELDUR
+	db 60, CONKELDURR
 	db 60, BEARTIC
 	db 62, HEATMOR
 	db 62, DURANT
