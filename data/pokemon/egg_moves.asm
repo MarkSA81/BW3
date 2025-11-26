@@ -656,16 +656,6 @@ KoffingEggMoves:
 	db SCREECH
 	db -1 ; end
 
-CorsolaEggMoves:
-	db AMNESIA
-	db BARRIER
-	db CONFUSE_RAY
-	db CURSE
-	db MIST
-	db SCREECH
-	db WATER_PULSE
-	db -1 ; end
-
 PinsirEggMoves:
 	db BUG_BITE
 	db CLOSE_COMBAT
