@@ -4880,6 +4880,7 @@ FroslassEvosAttacks:
 	db 1, LEER
 	db 1, DOUBLE_TEAM
 	db 1, ICE_SHARD
+	db 1, NASTY_PLOT
 	db 5, DOUBLE_TEAM
 	db 10, ICE_SHARD
 	db 14, ICY_WIND
