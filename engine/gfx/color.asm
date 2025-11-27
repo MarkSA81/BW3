@@ -1,39 +1,30 @@
 INCLUDE "engine/gfx/sgb_layouts.asm"
 
-SHINY_ATK_BIT EQU 5
-SHINY_DEF_VAL EQU 10
-SHINY_SPD_VAL EQU 10
-SHINY_SPC_VAL EQU 10
-
 CheckShininess:
 ; Check if a mon is shiny by DVs at bc.
 ; Return carry if shiny.
 
-	ld l, c
-	ld h, b
-
 ; Attack
 	ld a, [hl]
-	and 1 << SHINY_ATK_BIT
-	jr z, .NotShiny
+	cp 12 << 4
+	jr c, .NotShiny
 
 ; Defense
 	ld a, [hli]
 	and $f
-	cp  SHINY_DEF_VAL
-	jr nz, .NotShiny
+	cp 12
+	jr c, .NotShiny
 
 ; Speed
 	ld a, [hl]
-	and $f0
-	cp  SHINY_SPD_VAL << 4
-	jr nz, .NotShiny
+	cp 12 << 4
+	jr c, .NotShiny
 
 ; Special
-	ld a, [hl]
+	ld a, [hli]
 	and $f
-	cp  SHINY_SPC_VAL
-	jr nz, .NotShiny
+	cp 12
+	jr c, .NotShiny
 
 .Shiny:
 	scf
