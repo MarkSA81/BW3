@@ -303,7 +303,7 @@ ENDM
 	add_mt GUNK_SHOT
 	add_mt GIGA_DRAIN
 	add_mt DARK_PULSE
-	add_mt LOW_KICK
+	add_mt LOW_SWEEP
 	add_mt SUPER_FANG
 	add_mt HYPER_VOICE
 	add_mt EARTH_POWER
