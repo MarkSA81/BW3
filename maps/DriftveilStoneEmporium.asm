@@ -257,7 +257,7 @@ MoveTutorYellowScript:
 	ifequal 6, .DrainPunch
 	jump MoveTutorRefusedScript
 	
-.LowKick:
+.LowSweep:
 	checkitem YELLOW_SHARD
 	iffalse MoveTutorNotEnoughScript
 	writebyte LOW_SWEEP
