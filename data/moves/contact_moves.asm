@@ -21,7 +21,7 @@ ContactMoves:
 	db BITE
 	db PECK
 	db DRILL_PECK
-	db LOW_KICK
+	db LOW_SWEEP
 	db COUNTER
 	db STRENGTH
 	db PETAL_DANCE
