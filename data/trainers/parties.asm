@@ -125,7 +125,10 @@ LassGroup:
 	; LASS (R13)
 	db "LORI@", TRAINERTYPE_NORMAL
 	db 3, PURRLOIN
+	db ATKDEFDV_SHINY, SPDSPCDV_SHINY
 	db 3, PIDOVE
+	db $75, $92
+
 	db -1 ; end
 
 	; LASS (LOSTLORN)
