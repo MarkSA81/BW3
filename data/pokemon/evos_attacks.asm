@@ -3975,7 +3975,7 @@ SawkEvosAttacks:
 	db 1, TACKLE ; Rock Smash
 	db 1, LEER
 	db 1, FOCUS_ENERGY
-	db 9, DOUBLE_KICK ; Low Sweep
+	db 9, LOW_SWEEP ; Low Sweep
 	db 13, COUNTER
 	db 17, KARATE_CHOP
 	db 21, CROSS_CHOP ; Brick Break
