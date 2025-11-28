@@ -216,7 +216,7 @@ RioluEggMoves:
 	db CRUNCH
 	db HI_JUMP_KICK
 	db IRON_DEFENSE
-	db LOW_KICK
+	db LOW_SWEEP
 	db METEOR_MASH
 	db LOCK_ON
 	db -1 ; end
@@ -278,7 +278,7 @@ DrifloonEggMoves:
 
 MienfooEggMoves:
 	db DRAIN_PUNCH
-	db LOW_KICK
+	db LOW_SWEEP
 	db VITAL_THROW
 	db ENDURE
 	db -1 ; end
