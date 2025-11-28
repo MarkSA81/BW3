@@ -88,7 +88,7 @@ MoveNames::
 	db "COUNTER@"
 	db "MACH PUNCH@"
 	db "KARATE CHOP@"
-	db "LOW KICK@"
+	db "LOW SWEEP@"
 	db "DOUBLE KICK@"
 	db "VITAL THROW@"
 	db "DRAIN PUNCH@"
