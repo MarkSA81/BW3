@@ -249,7 +249,7 @@ MoveTutorYellowScript:
 	loadmenu YellowMoveMenuHeader
 	verticalmenu
 	closewindow
-	ifequal 1, .LowKick
+	ifequal 1, .LowSweep
 	ifequal 2, .SuperFang
 	ifequal 3, .HyperVoice
 	ifequal 4, .EarthPower
@@ -260,7 +260,7 @@ MoveTutorYellowScript:
 .LowKick:
 	checkitem YELLOW_SHARD
 	iffalse MoveTutorNotEnoughScript
-	writebyte LOW_KICK
+	writebyte LOW_SWEEP
 	scall MoveTutorStartTeachScript
 	ifnotequal FALSE, .done
 	takeitem YELLOW_SHARD
@@ -374,7 +374,7 @@ YellowMoveMenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 7 ; items
-	db "LOW KICK     1@"
+	db "LOW SWEEP     1@"
 	db "SUPER FANG   2@"
 	db "HYPER VOICE  3@"
 	db "EARTH POWER  4@"
