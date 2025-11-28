@@ -89,7 +89,7 @@ MoveDescriptions::
 	dw CounterDescription
 	dw MachPunchDescription
 	dw KarateChopDescription
-	dw LowKickDescription
+	dw LowSweepDescription
 	dw DoubleKickDescription
 	dw VitalThrowDescription
 	dw DrainPunchDescription
@@ -540,9 +540,9 @@ MoonblastDescription:
 	db   "An attack that may"
 	next "lower SPCL.ATK.@"
 
-LowKickDescription:
-	db   "An attack that may"
-	next "cause flinching.@"
+LowSweepDescription:
+	db   "Does damage and"
+	next "lowers SPEED.@"
 
 CounterDescription:
 	db   "Returns a physical"
