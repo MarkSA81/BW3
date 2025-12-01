@@ -273,7 +273,7 @@ CasteliaSewersXSpecial:
 	itemball X_SPECIAL
 	
 CasteliaSewersXSpclDef:
-	itemball X_SP_DEF
+	itemball LINKING_CORD
 	
 CasteliaSewersPearl:
 	itemball PEARL
