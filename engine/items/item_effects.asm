@@ -187,7 +187,7 @@ ItemEffects:
 	dw NoEffect            ; LIFT_KEY
 	dw RestoreHPEffect     ; BERRY
 	dw RestoreHPEffect     ; GOLD_BERRY
-	dw NoEffect            ; ANCIENT_STONE
+	dw NoEffect            ; ANCIENT_ORB
 	dw NoEffect            ; DATA_DISK
 	dw PokeBallEffect      ; PARK_BALL
 	dw EvoStoneEffect      ; LINKING_CORD
