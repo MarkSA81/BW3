@@ -284,7 +284,7 @@ R6FriendBall:
 	itemball FRIEND_BALL
 	
 R6Elixir:
-	itemball ELIXIR
+	itemball LINKING_CORD
 	
 R6TinyMushroom:
 	itemball TINYMUSHROOM
