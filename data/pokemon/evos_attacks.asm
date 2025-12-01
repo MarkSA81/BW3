@@ -4545,6 +4545,7 @@ PiloswineEvosAttacks:
 	db EVOLVE_MOVE, ANCIENTPOWER, MAMOSWINE
 	db 0 ; no more evolutions
 	db 1, TACKLE
+	db 1, ANCIENTPOWER
 	db 5, FORESIGHT ; Mud Sport
 	db 8, POWDER_SNOW
 	db 11, MUD_SLAP
