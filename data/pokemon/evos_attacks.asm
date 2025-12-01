@@ -1065,7 +1065,7 @@ BudewEvosAttacks:
 	db 0 ; no more level-up moves
 
 RoseliaEvosAttacks:
-	db EVOLVE_ITEM, LEAF_STONE, ROSERADE
+	db EVOLVE_ITEM, SHINY_STONE, ROSERADE
 	db 0 ; no more evolutions
 	db 1, ABSORB
 	db 4, GROWTH
@@ -1991,7 +1991,7 @@ LitwickEvosAttacks:
 	db 0 ; no more level-up moves
 
 LampentEvosAttacks:
-	db EVOLVE_ITEM, FIRE_STONE, CHANDELURE
+	db EVOLVE_ITEM, DUSK_STONE, CHANDELURE
 	db 0 ; no more evolutions
 	db 1, EMBER
 	db 1, LICK ; Astonish
@@ -2020,7 +2020,7 @@ ChandelureEvosAttacks:
 	db 0 ; no more level-up moves
 
 CottoneeEvosAttacks:
-	db EVOLVE_ITEM, LEAF_STONE, WHIMSICOTT
+	db EVOLVE_ITEM, SUN_STONE, WHIMSICOTT
 	db 0 ; no more evolutions
 	db 1, ABSORB
 	db 1, FAIRY_WIND
@@ -2054,7 +2054,7 @@ WhimsicottEvosAttacks:
 	db 0 ; no more level-up moves
 
 PetililEvosAttacks:
-	db EVOLVE_ITEM, LEAF_STONE, LILLIGANT
+	db EVOLVE_ITEM, SUN_STONE, LILLIGANT
 	db 0 ; no more evolutions
 	db 1, ABSORB
 	db 4, GROWTH
@@ -2087,7 +2087,7 @@ LilligantEvosAttacks:
 	db 0 ; no more level-up moves
 
 YanmaEvosAttacks:
-	db EVOLVE_HAPPINESS, TR_ANYTIME, YANMEGA
+	db EVOLVE_HOLD, ANCIENT_ORB, TR_ANYTIME, YANMEGA
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, FORESIGHT
@@ -3637,6 +3637,9 @@ EeveeEvosAttacks:
 	db EVOLVE_HAPPINESS, TR_MORNDAY, ESPEON
 	db EVOLVE_HAPPINESS, TR_NITE, UMBREON
 	db EVOLVE_HOLD, MAGIC_RIBBON, TR_MORNDAY, SYLVEON
+	db EVOLVE_ITEM, SUN_STONE, ESPEON
+	db EVOLVE_ITEM, MOON_STONE, UMBREON
+	db EVOLVE_ITEM, SHINY_STONE, SYLVEON
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
@@ -4536,7 +4539,7 @@ SwinubEvosAttacks:
 	db 0 ; no more level-up moves
 
 PiloswineEvosAttacks:
-	db EVOLVE_ITEM, ICE_STONE, MAMOSWINE
+	db EVOLVE_HOLD, ANCIENT_ORB, TR_ANYTIME, MAMOSWINE
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 5, FORESIGHT ; Mud Sport
