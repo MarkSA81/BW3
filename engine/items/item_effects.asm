@@ -190,7 +190,7 @@ ItemEffects:
 	dw SquirtbottleEffect  ; SQUIRTBOTTLE
 	dw NoEffect            ; DATA_DISK
 	dw PokeBallEffect      ; PARK_BALL
-	dw NoEffect            ; RAINBOW_WING
+	dw EvoStoneEffect      ; LINKING_CORD
 	dw NoEffect            ; RED_SHARD
 	dw NoEffect            ; BLUE_SHARD
 	dw NoEffect            ; GREEN_SHARD
