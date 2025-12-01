@@ -41,34 +41,34 @@ GameCornerVendor1_LoopScript:
 .MoonStone:
 	checkcoins 500
 	ifequal HAVE_LESS, GameCornerPrizeVendor_NotEnoughCoinsScript
-	itemtotext MOON_STONE, MEM_BUFFER_0
+	itemtotext CHOICE_BAND, MEM_BUFFER_0
 	scall GameCornerPrizeVendor_ConfirmPurchaseScript
 	iffalse GameCornerPrizeVendor_CancelPurchaseScript
-	giveitem MOON_STONE
+	giveitem CHOICE_BAND
 	iffalse GameCornerPrizeMonVendor_NoRoomForPrizeScript
 	takecoins 500
 	jump GameCornerVendor1_FinishScript
 
 .IceStone:
-	checkcoins 700
+	checkcoins 500
 	ifequal HAVE_LESS, GameCornerPrizeVendor_NotEnoughCoinsScript
-	itemtotext ICE_STONE, MEM_BUFFER_0
+	itemtotext CHOICE_SCARF, MEM_BUFFER_0
 	scall GameCornerPrizeVendor_ConfirmPurchaseScript
 	iffalse GameCornerPrizeVendor_CancelPurchaseScript
-	giveitem ICE_STONE
+	giveitem CHOICE_SCARF
 	iffalse GameCornerPrizeMonVendor_NoRoomForPrizeScript
-	takecoins 700
+	takecoins 500
 	jump GameCornerVendor1_FinishScript
 
 .ShellStone:
-	checkcoins 1000
+	checkcoins 500
 	ifequal HAVE_LESS, GameCornerPrizeVendor_NotEnoughCoinsScript
-	itemtotext SHELL_STONE, MEM_BUFFER_0
+	itemtotext CHOICE_SPECS, MEM_BUFFER_0
 	scall GameCornerPrizeVendor_ConfirmPurchaseScript
 	iffalse GameCornerPrizeVendor_CancelPurchaseScript
-	giveitem SHELL_STONE
+	giveitem CHOICE_SPECS
 	iffalse GameCornerPrizeMonVendor_NoRoomForPrizeScript
-	takecoins 1000
+	takecoins 500
 	jump GameCornerVendor1_FinishScript
 
 GameCornerPrizeVendor_ConfirmPurchaseScript:
@@ -116,9 +116,9 @@ GameCornerVendor1MenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "MOON STONE   500@"
-	db "ICE STONE    700@"
-	db "SHELL STONE 1000@"
+	db "CHOICE BAND   500@"
+	db "CHOICE SCARF  500@"
+	db "CHOICE SPECS  500@"
 	db "CANCEL@"
 
 GameCornerVendor2Script:
