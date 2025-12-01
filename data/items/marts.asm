@@ -149,14 +149,13 @@ MartMall4:
 	db -1 ; end
 
 MartMall5:
-	db 12 ; # items
+	db 11 ; # items
 	db DAWN_STONE
 	db DUSK_STONE
 	db FIRE_STONE
 	db ICE_STONE
 	db LEAF_STONE
 	db MOON_STONE
- 	db SHELL_STONE
 	db SHINY_STONE
 	db SUN_STONE
 	db THUNDERSTONE
@@ -165,15 +164,16 @@ MartMall5:
 	db -1 ; end
 
 MartMembers1:
-	db 8 ; # items
+	db 9 ; # items
 	db ANCIENT_STONE
-	db ELECTRIZER
-	db MAGMARIZER
 	db DRAGON_SCALE
+	db ELECTRIZER
 	db MAGIC_RIBBON
+	db MAGMARIZER
+	db METAL_COAT
 	db RAZOR_CLAW
 	db RAZOR_FANG
-	db METAL_COAT
+ 	db SHELL_STONE
 	db -1 ; end
 
 MartMembers2:
