@@ -150,7 +150,7 @@ ItemNames::
 	db "RAZOR FANG@"
 	db "LEPPA BERRY@"
 	db "DRAGON SCALE@"
-	db "BERSERK GENE@"
+	db "LINKING CORD@"
 	db "PP MAX@"
 	db "LIFE ORB@"
 	db "NET BALL@"
