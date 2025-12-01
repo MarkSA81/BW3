@@ -172,15 +172,15 @@
 	const FRIEND_BALL  ; a4
 	const MOON_BALL    ; a5
 	const LOVE_BALL    ; a6
-	const NORMAL_BOX   ; a7
-	const GORGEOUS_BOX ; a8
+	const DUSK_STONE   ; a7
+	const SHINY_STONE  ; a8
 	const SUN_STONE    ; a9
 	const POLKADOT_BOW ; aa
 	const EVIOLITE     ; ab
 	const LIFT_KEY     ; ac
 	const BERRY        ; ad
 	const GOLD_BERRY   ; ae
-	const SQUIRTBOTTLE ; af
+	const ANCIENT_ORB  ; af
 	const DATA_DISK    ; b0
 	const PARK_BALL    ; b1
 	const LINKING_CORD ; b2
