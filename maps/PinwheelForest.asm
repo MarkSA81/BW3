@@ -231,7 +231,7 @@ PinwheelForestSilverPowder:
 	itemball SILVERPOWDER
 	
 PinwheelForestFullHeal:
-	itemball FULL_HEAL
+	itemball SHINY_STONE
 	
 PinwheelForestBigRoot:
 	itemball BIG_ROOT
@@ -252,7 +252,7 @@ PinwheelForestHyperPotion:
 	hiddenitem HYPER_POTION, EVENT_PINWHEEL_FOREST_HYPER_POTION
 	
 PinwheelForestNugget:
-	hiddenitem NUGGET, EVENT_PINWHEEL_FOREST_NUGGET
+	hiddenitem SUN_STONE, EVENT_PINWHEEL_FOREST_NUGGET
 	
 PinwheelForestGreenShard:
 	hiddenitem GREEN_SHARD, EVENT_PINWHEEL_FOREST_GREEN_SHARD
