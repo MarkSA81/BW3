@@ -28,6 +28,9 @@ EvoTypeSizes::
 	db 2 ; EVOLVE_HAPPINESS_BABY
 	db 3 ; EVOLVE_STAT
 	db 3 ; EVOLVE_HOLD
+	db 2 ; EVOLVE_PARTY
+	db 2 ; EVOLVE_MOVE
+	db 2 ; EVOLVE_MOVE_TYPE
 
 SnivyEvosAttacks:
 	db EVOLVE_LEVEL, 17, SERVINE
@@ -2087,7 +2090,7 @@ LilligantEvosAttacks:
 	db 0 ; no more level-up moves
 
 YanmaEvosAttacks:
-	db EVOLVE_HOLD, ANCIENT_ORB, TR_ANYTIME, YANMEGA
+	db EVOLVE_MOVE, ANCIENT_POWER, YANMEGA
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, FORESIGHT
@@ -3636,7 +3639,7 @@ EeveeEvosAttacks:
 	db EVOLVE_ITEM, ICE_STONE, GLACEON
 	db EVOLVE_HAPPINESS, TR_MORNDAY, ESPEON
 	db EVOLVE_HAPPINESS, TR_NITE, UMBREON
-	db EVOLVE_HOLD, MAGIC_RIBBON, TR_MORNDAY, SYLVEON
+	db EVOLVE_MOVE_TYPE, FAIRY, SYLVEON
 	db EVOLVE_ITEM, SUN_STONE, ESPEON
 	db EVOLVE_ITEM, MOON_STONE, UMBREON
 	db EVOLVE_ITEM, SHINY_STONE, SYLVEON
@@ -4107,7 +4110,7 @@ SkarmoryEvosAttacks:
 	db 0 ; no more level-up moves
 
 MantykeEvosAttacks:
-	db EVOLVE_HAPPINESS_BABY, TR_NITE, MANTINE
+	db EVOLVE_PARTY, REMORAID, MANTINE
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, BUBBLE
@@ -4539,7 +4542,7 @@ SwinubEvosAttacks:
 	db 0 ; no more level-up moves
 
 PiloswineEvosAttacks:
-	db EVOLVE_HOLD, ANCIENT_ORB, TR_ANYTIME, MAMOSWINE
+	db EVOLVE_MOVE, ANCIENT_POWER, MAMOSWINE
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 5, FORESIGHT ; Mud Sport
