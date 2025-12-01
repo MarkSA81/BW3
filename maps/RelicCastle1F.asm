@@ -19,7 +19,7 @@ TrainerPsychicMRelicCastle1F:
 	end
 	
 RelicCastleRevive:
-	itemball REVIVE
+	itemball SUN_STONE
 	
 PsychicMRelicCastle1FSeenText:
 	text "I will use my"
