@@ -180,7 +180,7 @@ NimbasaParkOutsideBlocker:
 	jumptextfaceplayer NimbasaParkOutsideBlockerText
 	
 NimbasaParkOutsideXAccuracy:
-	itemball X_ACCURACY
+	itemball LINKING_CORD
 	
 NimbasaParkOutsideIceHeal:
 	itemball ICE_HEAL
