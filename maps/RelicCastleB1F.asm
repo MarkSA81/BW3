@@ -22,7 +22,7 @@ RelicCastleMaxPotion:
 	itemball MAX_POTION
 	
 RelicCastleElixir:
-	hiddenitem ELIXIR, EVENT_RELIC_CASTLE_ELIXIR
+	hiddenitem ANCIENT_ORB, EVENT_RELIC_CASTLE_ELIXIR
 	
 PsychicFRelicCastleB1FSeenText:
 	text "My psychic type"
