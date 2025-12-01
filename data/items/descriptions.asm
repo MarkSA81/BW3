@@ -960,7 +960,7 @@ ParkBallDesc:
 	db   "The Bug-Catching"
 	next "Contest BALL.@"
 
-RainbowWingDesc:
+LinkingCordDesc:
 	db   "Evolves certain"
 	next "kinds of #MON.@"
 
