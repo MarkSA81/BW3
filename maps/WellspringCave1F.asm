@@ -28,7 +28,7 @@ WellspringCave1FMaxRepel:
 	itemball MAX_REPEL
 	
 WellspringCave1FEscapeRope:
-	itemball ESCAPE_ROPE
+	itemball ANCIENT_ORB
 	
 WellspringCave1FElixir:
 	itemball ELIXIR
