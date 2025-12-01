@@ -291,7 +291,7 @@ EvolveAfterBattle_MasterLoop:
 
 	ld a, [hli]
 	ld b, a
-	ld de, TempMonMoves
+	ld de, wTempMonMoves
 	ld c, NUM_MOVES
 .move_loop
 	ld a, [de]
@@ -319,7 +319,7 @@ EvolveAfterBattle_MasterLoop:
     ld b, a                        ; B = tipo necessário
 
     ; Preparar loop de golpes
-    ld hl, TempMonMoves
+    ld hl, wTempMonMoves
     ld c, NUM_MOVES
 
 .move_type_loop
