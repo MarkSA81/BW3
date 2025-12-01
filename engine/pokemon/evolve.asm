@@ -102,6 +102,12 @@ EvolveAfterBattle_MasterLoop:
 	cp EVOLVE_PARTY
 	jp z, .party
 
+	cp EVOLVE_MOVE
+	jp z, .move
+
+	cp EVOLVE_MOVE_TYPE
+	jp z, .move_type
+
 .skip_evolve:
 	call SkipEvo
 	jr c, .loop
