@@ -166,15 +166,15 @@ ItemDescriptions:
 	dw FriendBallDesc
 	dw MoonBallDesc
 	dw LoveBallDesc
-	dw NormalBoxDesc
-	dw GorgeousBoxDesc
+	dw DuskStoneDesc
+	dw ShinyStoneDesc
 	dw SunStoneDesc
 	dw PolkadotBowDesc
 	dw EvioliteDesc
 	dw LiftKeyDesc
 	dw BerryDesc
 	dw GoldBerryDesc
-	dw SquirtBottleDesc
+	dw AncientOrbDesc
 	dw DataDiskDesc
 	dw ParkBallDesc
 	dw LinkingCordDesc
@@ -916,13 +916,13 @@ LoveBallDesc:
 	db   "For catching the"
 	next "opposite gender.@"
 
-NormalBoxDesc:
-	db   "Open it and see"
-	next "what's inside.@"
+DuskStoneDesc:
+	db   "Evolves certain"
+	next "kinds of #MON.@"
 
-GorgeousBoxDesc:
-	db   "Open it and see"
-	next "what's inside.@"
+ShinyStoneDesc:
+	db   "Evolves certain"
+	next "kinds of #MON.@"
 
 SunStoneDesc:
 	db   "Evolves certain"
@@ -948,9 +948,9 @@ GoldBerryDesc:
 	db   "A self-restore"
 	next "item. (30HP, HOLD)@"
 
-SquirtBottleDesc:
-	db   "A bottle used for"
-	next "watering plants.@"
+AncientOrbDesc:
+	db   "An orb imbued with"
+	next "ancient power.@"
 
 DataDiskDesc:
 	db   "A disk stolen from"
