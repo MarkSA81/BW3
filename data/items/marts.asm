@@ -164,8 +164,7 @@ MartMall5:
 	db -1 ; end
 
 MartMembers1:
-	db 9 ; # items
-	db ANCIENT_STONE
+	db 8 ; # items
 	db DRAGON_SCALE
 	db ELECTRIZER
 	db MAGIC_RIBBON
