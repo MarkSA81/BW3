@@ -116,7 +116,7 @@ TepigPokeBallScript:
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	buttonsound
-	givepoke TEPIG, 5, BERRY
+	givepoke EEVEE, 30, RARE_CANDY
 	closetext
 	applymovement PLAYER, AfterTepigMovement
 	jump WifeDirectionsScript
@@ -144,7 +144,7 @@ OshawottPokeBallScript:
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	buttonsound
-	givepoke OSHAWOTT, 5, BERRY
+	givepoke PILOSWINE, 5, RARE_CANDY
 	closetext
 	checkcode VAR_FACING
 	ifequal LEFT, .OshawottMovementLeft
