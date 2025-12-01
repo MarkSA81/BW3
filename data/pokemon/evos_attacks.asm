@@ -2090,7 +2090,7 @@ LilligantEvosAttacks:
 	db 0 ; no more level-up moves
 
 YanmaEvosAttacks:
-	db EVOLVE_MOVE, ANCIENT_POWER, YANMEGA
+	db EVOLVE_MOVE, ANCIENTPOWER, YANMEGA
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, FORESIGHT
@@ -4542,7 +4542,7 @@ SwinubEvosAttacks:
 	db 0 ; no more level-up moves
 
 PiloswineEvosAttacks:
-	db EVOLVE_MOVE, ANCIENT_POWER, MAMOSWINE
+	db EVOLVE_MOVE, ANCIENTPOWER, MAMOSWINE
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 5, FORESIGHT ; Mud Sport
