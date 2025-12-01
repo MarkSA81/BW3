@@ -173,7 +173,7 @@ ItemNames::
 	db "LIFT KEY@"
 	db "ORAN BERRY@"
 	db "SITRUS BERRY@"
-	db "ANCIENT STONE@"
+	db "ANCIENT ORB@"
 	db "DATA DISK@"
 	db "PARK BALL@"
 	db "LINKING CORD@"
