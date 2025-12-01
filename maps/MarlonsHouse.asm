@@ -83,7 +83,7 @@ SnivyPokeBallScript:
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	buttonsound
-	givepoke SNIVY, 5, BERRY
+	givepoke MANTYKE, 5, MASTER_BALL
 	closetext
 	checkcode VAR_FACING
 	ifequal RIGHT, .SnivyMovementRight
