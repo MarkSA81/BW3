@@ -242,7 +242,7 @@ LostlornEther1:
 	itemball ETHER
 	
 LostlornAntidote:
-	itemball ANTIDOTE
+	itemball SUN_STONE
 	
 LostlornNetBall:
 	itemball NET_BALL
