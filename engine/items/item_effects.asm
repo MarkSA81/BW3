@@ -179,15 +179,15 @@ ItemEffects:
 	dw PokeBallEffect      ; FRIEND_BALL
 	dw PokeBallEffect      ; MOON_BALL
 	dw PokeBallEffect      ; LOVE_BALL
-	dw NormalBoxEffect     ; NORMAL_BOX
-	dw GorgeousBoxEffect   ; GORGEOUS_BOX
+	dw EvoStoneEffect      ; DUSK_STONE
+	dw EvoStoneEffect      ; SHINY_STONE
 	dw EvoStoneEffect      ; SUN_STONE
 	dw NoEffect            ; POLKADOT_BOW
 	dw NoEffect            ; EVIOLITE
 	dw NoEffect            ; LIFT_KEY
 	dw RestoreHPEffect     ; BERRY
 	dw RestoreHPEffect     ; GOLD_BERRY
-	dw SquirtbottleEffect  ; SQUIRTBOTTLE
+	dw NoEffect            ; ANCIENT_STONE
 	dw NoEffect            ; DATA_DISK
 	dw PokeBallEffect      ; PARK_BALL
 	dw EvoStoneEffect      ; LINKING_CORD
