@@ -157,7 +157,7 @@
 	const RAZOR_FANG   ; 95
 	const MYSTERYBERRY ; 96
 	const DRAGON_SCALE ; 97
-	const LINKING_CORD ; 98
+	const BERSERK_GENE ; 98
 	const PP_MAX       ; 99
 	const LIFE_ORB     ; 9a
 	const NET_BALL     ; 9b
@@ -183,7 +183,7 @@
 	const SQUIRTBOTTLE ; af
 	const DATA_DISK    ; b0
 	const PARK_BALL    ; b1
-	const RAINBOW_WING ; b2
+	const LINKING_CORD ; b2
 	const RED_SHARD    ; b3
 	const BLUE_SHARD   ; b4
 	const GREEN_SHARD  ; b5
