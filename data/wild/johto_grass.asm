@@ -17,38 +17,38 @@ JohtoGrassWildMons:
 	map_id R_22
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 2, PATRAT
-	db 2, PIDOVE
-	db 2, PURRLOIN
-	db 2, AZURILL
-	db 2, IGGLYBUFF
-	db 3, PIDOVE
-	db 3, PURRLOIN
-	db 3, PATRAT
-	db 3, IGGLYBUFF
-	db 3, AZURILL
+	db 2, KINGAMBIT
+	db 2, MIENFOO
+	db 2, MIENSHAO
+	db 2, GIBLE
+	db 2, GABITE
+	db 3, GARCHOMP
+	db 3, REMORAID
+	db 3, REMORAID
+	db 3, REMORAID
+	db 3, REMORAID
 	; day
-	db 2, PATRAT
-	db 2, PIDOVE
-	db 2, PURRLOIN
-	db 2, AZURILL
-	db 2, IGGLYBUFF
-	db 3, PIDOVE
-	db 3, PURRLOIN
-	db 3, PATRAT
-	db 3, IGGLYBUFF
-	db 3, AZURILL
+	db 2, KINGAMBIT
+	db 2, MIENFOO
+	db 2, MIENSHAO
+	db 2, GIBLE
+	db 2, GABITE
+	db 3, GARCHOMP
+	db 3, REMORAID
+	db 3, REMORAID
+	db 3, REMORAID
+	db 3, REMORAID
 	; nite
-	db 2, PATRAT
-	db 2, PIDOVE
-	db 2, PURRLOIN
-	db 2, AZURILL
-	db 2, IGGLYBUFF
-	db 3, PIDOVE
-	db 3, PURRLOIN
-	db 3, PATRAT
-	db 3, IGGLYBUFF
-	db 3, AZURILL
+	db 2, KINGAMBIT
+	db 2, MIENFOO
+	db 2, MIENSHAO
+	db 2, GIBLE
+	db 2, GABITE
+	db 3, GARCHOMP
+	db 3, REMORAID
+	db 3, REMORAID
+	db 3, REMORAID
+	db 3, REMORAID
 	
 	map_id GIANT_CHASM_1F
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
