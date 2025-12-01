@@ -133,8 +133,8 @@ CelestialTowerHyperPotion:
 	itemball HYPER_POTION
 	
 CelestialTowerRevive:
-	itemball REVIVE
-	
+	itemball DUSK_STONE
+
 CelestialTowerPPUp:
 	itemball PP_UP
 	
