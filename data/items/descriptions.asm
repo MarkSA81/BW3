@@ -177,7 +177,7 @@ ItemDescriptions:
 	dw SquirtBottleDesc
 	dw DataDiskDesc
 	dw ParkBallDesc
-	dw RainbowWingDesc
+	dw LinkingCordDesc
 	dw RedShardDesc
 	dw BlueShardDesc
 	dw GreenShardDesc
@@ -961,8 +961,8 @@ ParkBallDesc:
 	next "Contest BALL.@"
 
 RainbowWingDesc:
-	db   "A mystical feather"
-	next "of rainbow colors.@"
+	db   "Evolves certain"
+	next "kinds of #MON.@"
 
 RedShardDesc:
 	db   "Collectors seek"
