@@ -105,9 +105,6 @@ EvolveAfterBattle_MasterLoop:
 	cp EVOLVE_MOVE
 	jp z, .move
 
-	cp EVOLVE_MOVE_TYPE
-	jp z, .move_type
-
 .skip_evolve:
 	call SkipEvo
 	jr c, .loop
@@ -319,61 +316,6 @@ EvolveAfterBattle_MasterLoop:
 	jp nz, .move_loop
 
 	jp .dont_evolve_3
-
-; Entrada esperada:
-;   A = tipo necessário para evoluir
-;   HL aponta para o parâmetro que contém esse tipo (lido com [hli])
-
-.move_type
-    call IsMonHoldingEverstone
-    jp z, .dont_evolve_2           ; Everstone → sem evolução
-
-    ; Ler o tipo necessário para evoluir
-    ld a, [hli]
-    push hl                        ; salvar HL original
-
-    ld b, a                        ; B = tipo necessário
-
-    ; Preparar loop de golpes
-    ld hl, wTempMonMoves
-    ld c, NUM_MOVES
-
-.move_type_loop
-    ld a, [hli]                    ; ler golpe
-    and a
-    jr z, .move_type_next          ; 0 = slot vazio → próximo
-
-    dec a                          ; converter ID do golpe para índice (1-based → 0-based)
-
-    ; Buscar tipo do golpe na tabela Moves
-    push hl
-    push bc
-
-    ld hl, Moves + MOVE_TYPE
-    ld bc, MOVE_LENGTH
-    call AddNTimes                 ; HL = pointer to move's type
-    ld a, BANK(Moves)
-    call GetFarByte                ; A = tipo do golpe
-
-    pop bc
-    pop hl
-
-    cp b                           ; tipo do golpe == tipo necessário?
-    jr nz, .move_type_next         ; não → continuar loop
-
-    ; -------------------------
-    ; Encontrou um golpe do tipo
-    ; -------------------------
-    pop hl                         ; restaurar HL salvo no início
-    jp .proceed                    ; permitir evolução
-
-.move_type_next
-    dec c
-    jr nz, .move_type_loop
-
-    ; Nenhum golpe correspondia ao tipo
-    pop hl                         ; restaurar HL
-    jp .dont_evolve_3              ; bloquear evolução
 
 .consume
 	ld a, [wTempMonItem]
