@@ -150,10 +150,10 @@ MonMenuIconPals:
 	icon_pals PINK,		PURPLE ; CROCONAW
 	icon_pals RED,		BROWN ; FERALIGATR
 	icon_pals PURPLE,	RED ; SKORUPI
-	icon_pals PURPLE,	RED ; GIBLE
-	icon_pals BLUE,		RED ; GABITE
-	icon_pals BLUE, 	RED ; GARCHOMP
-	icon_pals BLUE,	    RED ; FLYGON
+	icon_pals PURPLE,	RED ; DRAPION
+	icon_pals BLUE,		RED ; GIBLE
+	icon_pals BLUE, 	RED ; GABITE
+	icon_pals BLUE,	    RED ; GARCHOMP
 	icon_pals RED,		BROWN ; SCRAGGY
 	icon_pals RED,		BROWN ; PRIMEAPE
 	icon_pals GREEN,	BLUE ; NUMEL
