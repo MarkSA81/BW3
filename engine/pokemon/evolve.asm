@@ -272,17 +272,6 @@ EvolveAfterBattle_MasterLoop:
 	jp z, .dont_evolve_3
 
 .party
-	call IsMonHoldingEverstone
-	jp z, .dont_evolve_2
-
-	ld a, [hli]
-	ld b, a
-	push hl
-	farcall FindThatSpecies
-	pop hl
-	jp z, .dont_evolve_3
-
-.party
     call IsMonHoldingEverstone
     jp z, .dont_evolve_2
 
