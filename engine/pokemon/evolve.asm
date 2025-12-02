@@ -285,6 +285,22 @@ EvolveAfterBattle_MasterLoop:
 	pop hl
 	jp z, .dont_evolve_3
 
+.party
+    call IsMonHoldingEverstone
+    jp z, .dont_evolve_2
+
+    ld a, [hli]      ; A = species alvo para evoluir
+    ld b, a          ; B = species necessária
+
+    ; certifica-se de que party está carregada (se necessário)
+    ; — depende de como está sua engine
+
+    push hl
+    farcall FindThatSpecies
+    pop hl
+    jr z, .proceed   ; encontrou a espécie no party → permitir evolução
+    jp .dont_evolve_3
+
 .move
 	call IsMonHoldingEverstone
 	jp z, .dont_evolve_2
