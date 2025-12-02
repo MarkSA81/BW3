@@ -18,37 +18,37 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 2, GARCHOMP
-	db 2, MIENFOO
+	db 2, REMORAID
 	db 2, GARCHOMP
-	db 2, MIENFOO
+	db 2, REMORAID
 	db 2, GARCHOMP
-	db 2, MIENFOO
+	db 2, REMORAID
 	db 2, GARCHOMP
-	db 2, MIENFOO
+	db 2, REMORAID
 	db 2, GARCHOMP
-	db 2, MIENFOO
+	db 2, REMORAID
 	; day
 	db 2, GARCHOMP
-	db 2, MIENFOO
+	db 2, REMORAID
 	db 2, GARCHOMP
-	db 2, MIENFOO
+	db 2, REMORAID
 	db 2, GARCHOMP
-	db 2, MIENFOO
+	db 2, REMORAID
 	db 2, GARCHOMP
-	db 2, MIENFOO
+	db 2, REMORAID
 	db 2, GARCHOMP
-	db 2, MIENFOO
+	db 2, REMORAID
 	; nite
 	db 2, GARCHOMP
-	db 2, MIENFOO
+	db 2, REMORAID
 	db 2, GARCHOMP
-	db 2, MIENFOO
+	db 2, REMORAID
 	db 2, GARCHOMP
-	db 2, MIENFOO
+	db 2, REMORAID
 	db 2, GARCHOMP
-	db 2, MIENFOO
+	db 2, REMORAID
 	db 2, GARCHOMP
-	db 2, MIENFOO
+	db 2, REMORAID
 	
 	map_id GIANT_CHASM_1F
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
