@@ -151,9 +151,9 @@ PokemonCries::
 	mon_cry CRY_LAPRAS,     -$209,  $1ca ; KROOKODILE
 	mon_cry CRY_AMPHAROS,    $1c8,  $190 ; SKORUPI
 	mon_cry CRY_CLEFFA,     -$33e,  $200 ; DRAPION
-	mon_cry CRY_WEEDLE,      $021,  $070 ; GIBLE*
-	mon_cry CRY_METAPOD,     $0a3,  $070 ; GABITE*
-	mon_cry CRY_SQUIRTLE,    $e2f,  $150 ; GARCHOMP*
+	mon_cry CRY_WOOPER,     -$100,  $150 ; GIBLE
+	mon_cry CRY_WOOPER,     -$200,  $200 ; GABITE
+	mon_cry CRY_CHARMANDER, -$050,  $250 ; GARCHOMP
 	mon_cry CRY_KARRABLAST,  $04b,  $0a4 ; SCRAGGY
 	mon_cry CRY_KARRABLAST, -$0a7,  $147 ; SCRAFTY
 	mon_cry CRY_PSYDUCK,    -$13a,  $0d0 ; NUMEL
