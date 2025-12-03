@@ -83,7 +83,7 @@ SnivyPokeBallScript:
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	buttonsound
-	givepoke MANTYKE, 5, MASTER_BALL
+	givepoke SNIVY, 5, BERRY
 	closetext
 	checkcode VAR_FACING
 	ifequal RIGHT, .SnivyMovementRight
@@ -116,7 +116,7 @@ TepigPokeBallScript:
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	buttonsound
-	givepoke EEVEE, 30, RARE_CANDY
+	givepoke TEPIG, 5, BERRY
 	closetext
 	applymovement PLAYER, AfterTepigMovement
 	jump WifeDirectionsScript
@@ -144,7 +144,7 @@ OshawottPokeBallScript:
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	buttonsound
-	givepoke PILOSWINE, 5, RARE_CANDY
+	givepoke OSHAWOTT, 5, BERRY
 	closetext
 	checkcode VAR_FACING
 	ifequal LEFT, .OshawottMovementLeft
@@ -401,4 +401,5 @@ MarlonsHouse_MapEvents:
 	object_event  3,  2, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, SnivyPokeBallScript, EVENT_SNIVY_POKEBALL_IN_HOUSE
 	object_event  4,  2, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, TepigPokeBallScript, EVENT_TEPIG_POKEBALL_IN_HOUSE
 	object_event  5,  2, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, OshawottPokeBallScript, EVENT_OSHAWOTT_POKEBALL_IN_HOUSE
+	
 	
